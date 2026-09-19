@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.sistempencuciankendaraanpart2.model;
+
+/**
+ *
+ * @author Lenovo GK
+ */
+public class Layanan {
+    
+    private String kodeLayanan;
+    private String namaLayanan;
+    private double harga;
+    
+    public Layanan(String kodeLayanan, String namaLayanan, double harga){
+        this.kodeLayanan = kodeLayanan;
+        this.namaLayanan = namaLayanan;
+        this.harga = harga;
+    }
+    
+    public String getKodeLayanan(){
+        return kodeLayanan;
+    }
+    public void setKodeLayanan(String kodeLayanan) {
+        this.kodeLayanan = kodeLayanan;
+    }
+    public String getNamaLayanan(){
+        return namaLayanan;
+    }
+    public void setNamaLayanan(String namaLayanan) {
+        this.namaLayanan = namaLayanan;
+    }
+    public double getHarga(){
+        return harga;
+    }
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+}
