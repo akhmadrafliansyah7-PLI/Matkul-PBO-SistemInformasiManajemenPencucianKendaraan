@@ -59,7 +59,7 @@ public class Motor extends Kendaraan {
     
 }
 
-Kata kunci extends digunakan untuk menunjukkan bahwa Mobil dan Motor merupakan turunan dari class Kendaraan. Dengan inheritance, atribut 
+Kode 'extends' digunakan untuk menunjukkan bahwa Mobil dan Motor merupakan turunan dari class Kendaraan. Dengan inheritance, atribut 
 dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subclass tanpa harus menuliskan ulang kode yang sama.
 
 ## Screanshot Program
