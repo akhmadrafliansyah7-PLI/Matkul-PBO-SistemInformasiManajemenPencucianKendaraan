@@ -1,4 +1,4 @@
-# Minpro 1 - Pemrograman Berbasis Objek
+# Pemrograman Berbasis Objek
 
 ## Identitas
 
