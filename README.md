@@ -64,12 +64,14 @@ dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subcla
 
 ## Screanshot Program
 1. Tampilan Menu Utama
+   
    Program dimulai dengan menampilkan menu utama yang berisi beberapa pilihan, yaitu tambah data, tampilkan data, ubah data, hapus data, dan keluar
    dari program. Pengguna dapat memilih salah satu menu dengan memasukkan angka sesuai pilihan yang tersedia.
 
    <img width="297" height="176" alt="image" src="https://github.com/user-attachments/assets/be2efe76-51fe-42cf-9141-fc0c0ac5e96b" />
 
 2. Tambah Data
+   
    Pada menu Tambah Data Pencucian, pengguna memasukkan data transaksi pencucian seperti ID transaksi, ID pelanggan, nama pelanggan,
    nomor telepon, nomor plat, merek kendaraan, dan warna kendaraan. Selanjutnya pengguna memilih jenis kendaraan, yaitu mobil atau motor,
    kemudian program menentukan jumlah roda berdasarkan jenis kendaraan. Setelah itu, pengguna memilih jenis layanan pencucian yang
@@ -79,6 +81,7 @@ dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subcla
    <img width="285" height="612" alt="image" src="https://github.com/user-attachments/assets/955deb55-0634-413c-ad57-c6af8ea187a6" />
 
 3. Tampilkan Data
+   
    Pada menu Tampilkan Data Pencucian, program menampilkan data transaksi pencucian yang sebelumnya telah disimpan. Data yang ditampilkan
    meliputi ID transaksi, ID pelanggan, nama pelanggan, nomor telepon, nomor plat, detail kendaraan, merek kendaraan, kode layanan, jenis
    layanan, dan harga. Pada contoh, program menampilkan transaksi TR001 milik pelanggan Rafli dengan kendaraan Innova jenis mobil 4 roda.
@@ -87,6 +90,7 @@ dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subcla
    <img width="255" height="388" alt="image" src="https://github.com/user-attachments/assets/e44e0377-b722-4bb5-81e0-6219c3ec4eec" />
 
 4. Ubah Data
+   
    Pada menu Ubah Data Pencucian, pengguna dapat memperbarui data transaksi yang sudah tersimpan dengan memasukkan ID transaksi yang ingin
    diubah. Program kemudian meminta data baru seperti nama pelanggan, nomor telepon, nomor plat, merek kendaraan, warna kendaraan, jenis
    kendaraan, dan layanan pencucian. Pada contoh, transaksi TR001 diubah menjadi milik pelanggan Hussein dengan kendaraan Honda berwarna
@@ -96,6 +100,7 @@ dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subcla
    <img width="250" height="613" alt="image" src="https://github.com/user-attachments/assets/186cce03-150f-4b88-b8b3-f1b7523b3ea2" />
 
 5. Hapus Data
+    
    Pada menu **Hapus Data Pencucian**, pengguna memasukkan ID transaksi yang ingin dihapus. Sistem mencari transaksi berdasarkan ID
    tersebut. Jika transaksi ditemukan, data akan dihapus dari `ArrayList`. Jika ID tidak ditemukan, sistem akan menampilkan pesan bahwa
    data tidak ditemukan.
@@ -103,6 +108,7 @@ dan method yang bersifat umum pada kendaraan dapat digunakan kembali oleh subcla
    <img width="263" height="284" alt="image" src="https://github.com/user-attachments/assets/8d11618e-05e4-40e1-8009-791c70490ed4" />
 
 6. Keluar Dari Program
+    
    Setelah setiap proses selesai, program kembali menampilkan menu utama sehingga pengguna dapat memilih proses lainnya. Program akan
    terus berjalan selama pengguna belum memilih menu **Keluar**. Ketika pengguna memilih menu keluar, program akan menampilkan pesan
    bahwa program selesai dan menghentikan proses.
