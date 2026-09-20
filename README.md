@@ -31,7 +31,9 @@ Kendaraan.
 Hierarki class pada sistem dapat digambarkan sebagai berikut:
 
 Kendaraan
+
 ├── Mobil
+
 └── Motor
 
 Class Mobil digunakan untuk merepresentasikan kendaraan berjenis mobil, sedangkan class Motor digunakan untuk merepresentasikan kendaraan
@@ -46,11 +48,15 @@ Motor mewarisi atribut dan method yang terdapat pada class Kendaraan.
 Contoh penerapannya:
 
 public class Mobil extends Kendaraan {
+
     // atribut dan method khusus mobil
+    
 }
 
 public class Motor extends Kendaraan {
+
     // atribut dan method khusus motor
+    
 }
 
 Kata kunci extends digunakan untuk menunjukkan bahwa Mobil dan Motor merupakan turunan dari class Kendaraan. Dengan inheritance, atribut 
