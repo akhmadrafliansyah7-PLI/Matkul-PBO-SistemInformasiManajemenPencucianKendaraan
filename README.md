@@ -32,9 +32,9 @@ Hierarki class pada sistem dapat digambarkan sebagai berikut:
 
 Kendaraan
 
-├── Mobil
+    ├── Mobil
 
-└── Motor
+    └── Motor
 
 Class Mobil digunakan untuk merepresentasikan kendaraan berjenis mobil, sedangkan class Motor digunakan untuk merepresentasikan kendaraan
 berjenis motor. Penerapan inheritance ini membuat atribut dan method yang sama tidak perlu ditulis ulang pada masing-masing subclass, 
